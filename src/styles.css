@@ -1,0 +1,21 @@
+#contained_auto {
+  border: 2px solid green;
+  content-visibility: auto;
+  contain-intrinsic-inline-size: 152px;
+  contain-intrinsic-block-size: 52px;
+  margin-left: 3000px;
+}
+.child_element {
+  border: 1px solid red;
+  background: blue;
+  block-size: 50px;
+  inline-size: 150px;
+}
+
+#contained_hidden {
+  border: 2px solid green;
+  content-visibility: hidden;
+  contain-intrinsic-inline-size: 152px;
+  contain-intrinsic-block-size: 52px;
+  margin-left: 3000px;
+}
